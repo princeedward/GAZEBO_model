@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="prototype_1">
+  <static>true</static>
+
+  <link name='Holder'>
+        <pose>0 0 .1 0 0 0</pose>
+
+        <collision name='bottom_collision'>
+          <geometry>
+            <box>
+              <size>.091698 .087898 .0064</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name='bottom_visual'>
+          <geometry>
+            <box>
+              <size>.091698 .087898 .0064</size>
+            </box>
+          </geometry>
+        </visual>
+
+      <collision name='LeftSide_collision'>
+      	<pose> 0.042649 0 .0213745 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>.0064 .087898 .042749</size>
+            </box>
+          </geometry>
+      </collision>
+
+      <visual name='LeftSide_visual'>
+        	<pose> 0.042649 0 .0213745 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>.0064 .087898 .042749</size>
+            </box>
+          </geometry>
+       </visual>
+
+       <collision name='RightSide_collision'>
+      	<pose> -0.042649 0 .0213745 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>.0064 .087898 .042749</size>
+            </box>
+          </geometry>
+      </collision>
+
+      <visual name='RightSide_visual'>
+        	<pose> -0.042649 0 .0213745 0 0 0</pose>
+          <geometry>
+            <box>
+              <size>.0064 .087898 .042749</size>
+            </box>
+          </geometry>
+       </visual>
+
+ 			<collision name='LeftSideTop_collision'>
+      	<pose> 0.042649 0 .042749 1.5707 0 1.5707</pose>
+          <geometry>
+            <cylinder>
+          		<radius>.043949</radius>
+          		<length>.0064</length>
+        		</cylinder>
+          </geometry>
+      </collision>
+
+      <visual name='LeftSideTop_visual'>
+        	<pose> 0.042649 0 .042749 1.5707 0 1.5707</pose>
+          <geometry>
+            <cylinder>
+          		<radius>.043949</radius>
+          		<length>.0064</length>
+        		</cylinder>
+          </geometry>
+       </visual>
+				
+			<collision name='RightSideTop_collision'>
+      	<pose> -0.042649 0 .042749 1.5707 0 1.5707</pose>
+          <geometry>
+            <cylinder>
+          		<radius>.043949</radius>
+          		<length>.0064</length>
+        		</cylinder>
+          </geometry>
+      </collision>
+
+      <visual name='RightSideTop_visual'>
+        	<pose> -0.042649 0 .042749 1.5707 0 1.5707</pose>
+          <geometry>
+            <cylinder>
+          		<radius>.043949</radius>
+          		<length>.0064</length>
+        		</cylinder>
+          </geometry>
+       </visual>
+
+		</link>
+  </model>
+</sdf>
