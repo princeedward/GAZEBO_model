@@ -1,0 +1,85 @@
+<sdf version='1.4'>
+  <model name='Holder_body'>
+	<static>true</static>
+    <link name='CircuitHolder'>
+      <pose>0 0 .1 0 0 0</pose>
+      <inertial>
+        <pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose>
+        <mass>0.309551</mass>
+        <inertia>
+          <ixx>0.000152716</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000166672</iyy>
+          <iyz>0</iyz>
+          <izz>0.000206589</izz>
+        </inertia>
+      </inertial>
+      <collision name='CircuitHolder_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitHolder.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='CircuitHolder_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitHolder.STL</uri>
+          </mesh>
+        </geometry>
+				<material>
+					<ambient>0 0 0 1</ambient>
+				</material>
+      </visual>
+      
+			<collision name='CircuitKey_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitKey.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='CircuitKey_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitKey.STL</uri>
+          </mesh>
+        </geometry>
+				<material>
+					<ambient>0.9098 0.4431 0.0314 1</ambient>
+				</material>
+      </visual>
+
+			<collision name='CircuitPart_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitPart.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='CircuitPart_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://test4/meshes/CircuitPart.STL</uri>
+          </mesh>
+        </geometry>
+				<material>
+					<ambient>0.956862745098039 0.956862745098039 0.956862745098039 1</ambient>
+				</material>
+      </visual>
+    </link>
+  </model>
+</sdf>
