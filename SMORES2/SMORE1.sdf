@@ -410,6 +410,10 @@
       <parent>CircuitHolder</parent>
       <axis>
         <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5707963</lower>
+          <upper>1.5707963</upper>
+        </limit>
       </axis>
     </joint>
 
