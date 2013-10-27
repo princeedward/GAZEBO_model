@@ -241,6 +241,13 @@
 					<ambient>0 1 0 1</ambient>
 				</material>
       </visual>
+
+      <sensor name='front_contact' type='contact'>
+          <contact>
+            <collision>FrontWheel_collision</collision>
+          </contact>
+          <plugin name="my_plugin" filename="plugins/libcontact.so"/>
+      </sensor>
     </link>
 
 		<link name='LeftWheel'>
@@ -485,6 +492,6 @@
       </physics>
     </joint>
 
-    <plugin name="ModelController1" filename="plugins/libControllerPro1.so"/>
+    <plugin name="ModelController" filename="plugins/libControllerPro1.so"/>
   </model>
 </sdf>
