@@ -1,13 +1,13 @@
 <?xml version ='1.0'?>
 <sdf version ='1.4'>
   <world name='default'>
-  	<physics type = "ode">
-			<simbody>
-				<contact>
-					<stiffness>200</stiffness>
-				</contact>
-			</simbody>
-		</physics>
+    <physics type = "ode">
+	<simbody>
+	  <contact>
+	    <stiffness>200</stiffness>
+	  </contact>
+	</simbody>
+    </physics>
     <include>
       <uri>model://ground_plane</uri>
     </include>
