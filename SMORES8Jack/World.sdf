@@ -2,11 +2,11 @@
 <sdf version ='1.4'>
   <world name='default'>
     <physics type = "ode">
-	<simbody>
-	  <contact>
-	    <stiffness>200</stiffness>
-	  </contact>
-	</simbody>
+    	<simbody>
+    	  <contact>
+    	    <stiffness>200</stiffness>
+    	  </contact>
+    	</simbody>
     </physics>
     <include>
       <uri>model://ground_plane</uri>
