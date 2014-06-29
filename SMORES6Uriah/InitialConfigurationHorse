@@ -2,7 +2,7 @@
 <configuration>
 <modules>
 	<module>
-		<name>Module_0</name>
+		<name>Module_1</name>
 		<position>0.0 0.0 0.05 0.0 0.0 0.0</position>
 		<joints>0.0 0.0 0.0 1.5707963</joints>
 	</module>
@@ -81,7 +81,7 @@
 <connections>
 	<connection>
 		<module1>Module_2</module1>
-		<module2>Module_0</module2>
+		<module2>Module_1</module2>
 		<node1>0</node1>
 		<node2>3</node2>
 		<distance>0</distance>

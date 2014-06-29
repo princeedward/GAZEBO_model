@@ -4,7 +4,7 @@
     <physics type = "ode">
     	<simbody>
     	  <contact>
-    	    <stiffness>200</stiffness>
+    	    <stiffness>0</stiffness>
     	  </contact>
     	</simbody>
     </physics>
@@ -16,6 +16,6 @@
       <uri>model://sun</uri>
     </include>
 
-    <plugin filename="plugins/libSuperServer.so" name="ControlCenter"/>
+    <plugin filename="plugins/libGaitRecorder.so" name="ControlCenter"/>
   </world>
 </sdf>

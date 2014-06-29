@@ -4,198 +4,236 @@
 	<module>
 		<name>Module_0</name>
 		<position>0.0 0.0 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_1</name>
-		<position>0.0 0.0 0.15 1.5707963 0.0 1.5707963</position>
-		<joints>0.0 0.0 0.0 -1.5707963</joints>
+		<position>6.12323399574e-18 -0.1 0.05 0.0 -0 0.0</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_2</name>
-		<position>-0.1 0.0 0.15 0.0 0.0 0.0</position>
+		<position>1.22464679915e-17 -0.2 0.05 0.0 -0 0.0</position>
 		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_3</name>
-		<position>-0.1 -0.1 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 -1.5707963</joints>
+		<position>1.83697019872e-17 -0.3 0.05 0.0 -0 0.0</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_4</name>
-		<position>-0.1 -0.1 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>1.22464679915e-17 0.1 0.05 0.0 -0 -2.44929359829e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_5</name>
-		<position>-0.1 0.1 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>4.89858719659e-17 0.2 0.05 0.0 -0 -4.89858719659e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_6</name>
-		<position>-0.1 0.1 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.1 -0.1 0.05 0.0 -0 -2.44929359829e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_7</name>
+		<position>-0.1 -0.2 0.05 0.0 -0 -2.44929359829e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_8</name>
-		<position>-0.2 0.0 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.1 -0.3 0.05 0.0 -0 -2.44929359829e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_9</name>
-		<position>-0.2 0.0 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 -1.5707963</joints>
+		<position>-0.1 1.83697019872e-17 0.05 0.0 -0 -2.44929359829e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_10</name>
-		<position>-0.3 0.0 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 -1.5707963</joints>
+		<position>-0.1 0.1 0.05 0.0 -0 -4.89858719659e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_11</name>
-		<position>-0.3 0.0 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.1 0.2 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_12</name>
-		<position>-0.4 0.0 0.15 0.0 0.0 0.0</position>
+		<position>-0.2 -0.1 0.05 0.0 -0 -4.89858719659e-16</position>
 		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_13</name>
-		<position>-0.5 0.0 0.15 1.5707963 0.0 1.5707963</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.2 -0.2 0.05 0.0 -0 -4.89858719659e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_14</name>
-		<position>-0.5 0.0 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.2 -0.3 0.05 0.0 -0 -4.89858719659e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_15</name>
-		<position>-0.4 -0.1 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 -1.5707963</joints>
+		<position>-0.2 6.12323399574e-17 0.05 0.0 -0 -4.89858719659e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_16</name>
-		<position>-0.4 -0.1 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.2 0.1 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_17</name>
-		<position>-0.4 0.1 0.15 1.5707963 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.2 0.2 0.05 0.0 -0 -9.79717439318e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 	<module>
 		<name>Module_18</name>
-		<position>-0.4 0.1 0.05 0.0 0.0 0.0</position>
-		<joints>0.0 0.0 0.0 1.5707963</joints>
+		<position>-0.3 -0.1 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_19</name>
+		<position>-0.3 -0.2 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_20</name>
+		<position>-0.3 -0.3 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_21</name>
+		<position>-0.3 1.2858791391e-16 0.05 0.0 -0 -7.34788079488e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_22</name>
+		<position>-0.3 0.1 0.05 0.0 -0 -9.79717439318e-16</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
+	</module>
+	<module>
+		<name>Module_23</name>
+		<position>-0.3 0.2 0.05 0.0 -0 -1.22464679915e-15</position>
+		<joints>0.0 0.0 0.0 0.0</joints>
 	</module>
 </modules>
 
 <connections>
 	<connection>
+		<module1>Module_1</module1>
+		<module2>Module_0</module2>
+		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_2</module1>
+		<module2>Module_1</module2>
+		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
 		<module1>Module_3</module1>
 		<module2>Module_2</module2>
 		<node1>3</node1>
 		<node2>0</node2>
-		<distance>0</distance>
-		<angle>0</angle>
-	</connection>
-	<connection>
-		<module1>Module_0</module1>
-		<module2>Module_1</module2>
-		<node1>3</node1>
-		<node2>0</node2>
-		<distance>0</distance>
-		<angle>0</angle>
-	</connection>
-	<connection>
-		<module1>Module_1</module1>
-		<module2>Module_2</module2>
-		<node1>3</node1>
-		<node2>1</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_4</module1>
-		<module2>Module_3</module2>
-		<node1>3</node1>
-		<node2>0</node2>
-		<distance>0</distance>
-		<angle>0</angle>
-	</connection>
-	<connection>
-		<module1>Module_5</module1>
-		<module2>Module_2</module2>
-		<node1>3</node1>
-		<node2>3</node2>
-		<distance>0</distance>
-		<angle>0</angle>
-	</connection>
-	<connection>
-		<module1>Module_5</module1>
-		<module2>Module_6</module2>
+		<module2>Module_0</module2>
 		<node1>0</node1>
 		<node2>3</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
-		<module1>Module_9</module1>
-		<module2>Module_2</module2>
+		<module1>Module_5</module1>
+		<module2>Module_4</module2>
+		<node1>0</node1>
+		<node2>3</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_6</module1>
+		<module2>Module_1</module2>
 		<node1>1</node1>
 		<node2>2</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_7</module1>
+		<module2>Module_6</module2>
+		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_8</module1>
+		<module2>Module_7</module2>
+		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_9</module1>
-		<module2>Module_8</module2>
-		<node1>0</node1>
-		<node2>3</node2>
-		<distance>0</distance>
+		<module2>Module_0</module2>
+		<node1>1</node1>
+		<node2>2</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
-		<module1>Module_9</module1>
-		<module2>Module_10</module2>
-		<node1>2</node1>
-		<node2>1</node2>
+		<module1>Module_6</module1>
+		<module2>Module_9</module2>
+		<node1>3</node1>
+		<node2>0</node2>
 		<distance>0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_10</module1>
-		<module2>Module_11</module2>
+		<module2>Module_9</module2>
 		<node1>0</node1>
 		<node2>3</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_11</module1>
-		<module2>Module_8</module2>
-		<node1>1</node1>
-		<node2>2</node2>
-		<distance>0</distance>
+		<module2>Module_10</module2>
+		<node1>0</node1>
+		<node2>3</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_12</module1>
-		<module2>Module_10</module2>
+		<module2>Module_6</module2>
 		<node1>1</node1>
 		<node2>2</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_13</module1>
 		<module2>Module_12</module2>
 		<node1>3</node1>
-		<node2>2</node2>
-		<distance>0</distance>
+		<node2>0</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
@@ -203,19 +241,35 @@
 		<module2>Module_13</module2>
 		<node1>3</node1>
 		<node2>0</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_15</module1>
-		<module2>Module_12</module2>
-		<node1>3</node1>
-		<node2>0</node2>
-		<distance>0</distance>
+		<module2>Module_9</module2>
+		<node1>1</node1>
+		<node2>2</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_16</module1>
+		<module2>Module_15</module2>
+		<node1>0</node1>
+		<node2>3</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_17</module1>
+		<module2>Module_16</module2>
+		<node1>0</node1>
+		<node2>3</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_12</module1>
 		<module2>Module_15</module2>
 		<node1>3</node1>
 		<node2>0</node2>
@@ -223,16 +277,56 @@
 		<angle>0</angle>
 	</connection>
 	<connection>
-		<module1>Module_17</module1>
+		<module1>Module_18</module1>
 		<module2>Module_12</module2>
+		<node1>1</node1>
+		<node2>2</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_19</module1>
+		<module2>Module_18</module2>
 		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_20</module1>
+		<module2>Module_19</module2>
+		<node1>3</node1>
+		<node2>0</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_21</module1>
+		<module2>Module_15</module2>
+		<node1>1</node1>
+		<node2>2</node2>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_22</module1>
+		<module2>Module_21</module2>
+		<node1>0</node1>
 		<node2>3</node2>
-		<distance>0</distance>
+		<distance>0.0</distance>
+		<angle>0</angle>
+	</connection>
+	<connection>
+		<module1>Module_23</module1>
+		<module2>Module_22</module2>
+		<node1>0</node1>
+		<node2>3</node2>
+		<distance>0.0</distance>
 		<angle>0</angle>
 	</connection>
 	<connection>
 		<module1>Module_18</module1>
-		<module2>Module_17</module2>
+		<module2>Module_21</module2>
 		<node1>3</node1>
 		<node2>0</node2>
 		<distance>0</distance>

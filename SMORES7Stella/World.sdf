@@ -9,6 +9,6 @@
       <uri>model://sun</uri>
     </include>
 
-    <plugin filename="plugins/libConfigGenerator.so" name="ControlCenter"/>
+    <plugin filename="plugins/libConfigEditor.so" name="ControlCenter"/>
   </world>
 </sdf>

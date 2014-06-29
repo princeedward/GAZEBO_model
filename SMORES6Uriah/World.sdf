@@ -16,6 +16,6 @@
       <uri>model://sun</uri>
     </include>
 
-    <plugin filename="plugins/libSuperServer.so" name="ControlCenter"/>
+    <plugin filename="plugins/libWorldController.so" name="ControlCenter"/>
   </world>
 </sdf>
