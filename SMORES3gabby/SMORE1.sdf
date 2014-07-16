@@ -23,7 +23,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/CircuitHolderNew.STL</uri>
+            <uri>model://SMORES3gabby/meshes/CircuitHolderNew.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -32,7 +32,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/CircuitHolder.STL</uri>
+            <uri>model://SMORES3gabby/meshes/CircuitHolder.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -45,7 +45,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/CircuitKey.STL</uri>
+            <uri>model://SMORES3gabby/meshes/CircuitKey.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -58,7 +58,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/CircuitPart.STL</uri>
+            <uri>model://SMORES3gabby/meshes/CircuitPart.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -86,7 +86,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/UHolderNew.STL</uri>
+            <uri>model://SMORES3gabby/meshes/UHolderNew.STL</uri>
           </mesh>
         </geometry>
         <!-- The surface prperties of the U shape holder-->
@@ -106,7 +106,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/UHolderBody.STL</uri>
+            <uri>model://SMORES3gabby/meshes/UHolderBody.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -119,7 +119,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/UMagAndGears.STL</uri>
+            <uri>model://SMORES3gabby/meshes/UMagAndGears.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -132,7 +132,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/UGreenPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/UGreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -145,7 +145,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/URedPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/URedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -173,7 +173,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/FrontWheelThin.STL</uri>
+            <uri>model://SMORES3gabby/meshes/FrontWheelThin.STL</uri>
           </mesh>
         </geometry>
         <!-- Properties of the front wheel-->
@@ -195,7 +195,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/FrontWheel.STL</uri>
+            <uri>model://SMORES3gabby/meshes/FrontWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -208,7 +208,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/CenterMag2.STL</uri>
+            <uri>model://SMORES3gabby/meshes/CenterMag2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -221,7 +221,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/RedPad2.STL</uri>
+            <uri>model://SMORES3gabby/meshes/RedPad2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -234,7 +234,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/GreenPad2.STL</uri>
+            <uri>model://SMORES3gabby/meshes/GreenPad2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -262,7 +262,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MainWheelNewThick.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MainWheelNewThick.STL</uri>
           </mesh>
         </geometry>
         <!-- Surface Property of material -->
@@ -283,7 +283,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MainWheel.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MainWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -296,7 +296,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MagneticBars.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MagneticBars.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -309,7 +309,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/RedPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/RedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -322,7 +322,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/GreenPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/GreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -351,7 +351,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MainWheelNewThick.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MainWheelNewThick.STL</uri>
           </mesh>
         </geometry>
         <!-- Surface Property of material -->
@@ -370,7 +370,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MainWheel.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MainWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -383,7 +383,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/MagneticBars.STL</uri>
+            <uri>model://SMORES3gabby/meshes/MagneticBars.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -396,7 +396,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/RedPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/RedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -409,7 +409,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES2/meshes/GreenPad.STL</uri>
+            <uri>model://SMORES3gabby/meshes/GreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
