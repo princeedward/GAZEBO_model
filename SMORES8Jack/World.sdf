@@ -1,0 +1,21 @@
+<?xml version ='1.0'?>
+<sdf version ='1.4'>
+  <world name='default'>
+    <physics type = "ode">
+    	<simbody>
+    	  <contact>
+    	    <stiffness>0</stiffness>
+    	  </contact>
+    	</simbody>
+    </physics>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <plugin filename="plugins/libGaitRecorder.so" name="ControlCenter"/>
+  </world>
+</sdf>
