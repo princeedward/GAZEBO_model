@@ -1,6 +1,17 @@
 <?xml version ='1.0'?>
 <sdf version ='1.4'>
   <world name='default'>
+	<physics type = "ode">
+      <ode>
+        <solver>
+          <iters>10</iters>
+        </solver>
+		<constraints>
+			<cfm>0.005</cfm>
+      <erp>0.4</erp>
+		</constraints>
+      </ode>
+    </physics>
     <include>
       <uri>model://ground_plane</uri>
     </include>

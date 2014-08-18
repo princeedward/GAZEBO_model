@@ -7,15 +7,20 @@
     <link name='CircuitHolder'>
       <pose>0 0 .05 0 0 0</pose>
       <inertial>
+        <!--
         <pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose>
+        -->
+        <pose>0 -0.00824713 0 0 -0 0</pose>
         <mass>0.309551</mass>
         <inertia>
           <ixx>0.000152716</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
+          <!--
           <iyy>0.000166672</iyy>
           <iyz>0</iyz>
           <izz>0.000206589</izz>
+          -->
         </inertia>
       </inertial>
       <collision name='CircuitHolder_collision'>
@@ -70,15 +75,20 @@
 		<link name='UHolderBody'>
       <pose>0 0 .05 0 0 0</pose>
 			<inertial>
+        <!--
         <pose>0 0.0306753 0 0 0 0</pose>
+		-->
+		<pose>0 0.0356750510 0 0 0 0</pose>
         <mass>0.127498</mass>
         <inertia>
           <ixx>0.000145026</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
+          <!--
           <iyy>0.000207429</iyy>
           <iyz>0</iyz>
           <izz>0.000191183</izz>
+          -->
         </inertia>
       </inertial>
       <collision name='UHolderBody_collision'>
@@ -95,8 +105,8 @@
             <ode>
               <mu>0.35</mu>
               <mu2>0.35</mu2>
-              <!--slip1>1.0</slip1>
-              <slip2>1.0</slip2-->
+              <slip1>1.0</slip1>
+              <slip2>0.0</slip2>
             </ode>
           </friction>
         </surface>
@@ -171,9 +181,11 @@
           <ixx>1.94691e-05</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
+          <!--
           <iyy>3.74262e-05</iyy>
           <iyz>0</iyz>
           <izz>1.94691e-05</izz>
+          -->
         </inertia>
       </inertial>
       <collision name='FrontWheel_collision'>
@@ -188,12 +200,12 @@
         <surface>
           <friction>
             <ode>
-              <mu>0.35</mu>
-              <mu2>0.35</mu2>
+              <mu>0.75</mu>
+              <mu2>0.75</mu2>
               <!--mu>0</mu>
               <mu2>0</mu2-->
-              <!--slip1>0</slip1>
-              <slip2>0</slip2-->
+              <slip1>1</slip1>
+              <slip2>0</slip2>
             </ode>
           </friction>
         </surface>
@@ -267,9 +279,11 @@
           <ixx>3.37995e-05</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
+          <!--
           <iyy>1.71576e-05</iyy>
           <iyz>0</iyz>
           <izz>1.71576e-05</izz>
+          -->
         </inertia>
       </inertial>
       <collision name='LeftWheel_collision'>
@@ -287,8 +301,8 @@
             <ode>
               <mu>1</mu>
               <mu2>1</mu2>
-              <!--slip1>1</slip1>
-              <slip2>1</slip2-->
+              <slip1>1</slip1>
+              <slip2>0</slip2>
             </ode>
           </friction>
         </surface>
@@ -363,9 +377,11 @@
           <ixx>3.37995e-05</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
+          <!--
           <iyy>1.71576e-05</iyy>
           <iyz>0</iyz>
           <izz>1.71576e-05</izz>
+          -->
         </inertia>
       </inertial>
       <collision name='RightWheel_collision'>
@@ -383,6 +399,8 @@
             <ode>
               <mu>1</mu>
               <mu2>1</mu2>
+			  <slip1>1</slip1>
+              <slip2>0</slip2>
             </ode>
           </friction>
         </surface>
@@ -488,7 +506,7 @@
       </axis>
       <physics>
         <ode>
-          <max_force>1.4</max_force>
+          <max_force>2.3</max_force>
         </ode>
       </physics>
     </joint>
