@@ -1,0 +1,18 @@
+<?xml version ='1.0'?>
+<sdf version ='1.4'>
+<model name="paintShell">
+	<static>true</static>
+	<pose>0 0 0 0 0 0</pose>
+	
+      <link name="paintLink">
+	<visual name="paintVis">
+	  <transparency>1</transparency>
+	  <geometry>
+	    <box>
+              <size>1 1 1</size>
+	    </box>
+          </geometry>
+	<plugin name="PaintingPlugin" filename="plugins/libpainting_plugin.so"/>
+	</visual>
+       </link>
+</model>

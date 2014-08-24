@@ -1,0 +1,7 @@
+*.glc
+*.mp4
+Commands*
+!Commands
+InitialConfiguration*
+!InitialConfiguration
+
