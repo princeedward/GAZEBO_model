@@ -3,9 +3,6 @@
   <world name='default'>
 	<physics type = "ode">
       <ode>
-        <solver>
-          <iters>10</iters>
-        </solver>
 		<constraints>
 			<cfm>0.005</cfm>
       <erp>0.4</erp>
