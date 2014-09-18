@@ -2,14 +2,12 @@
 <sdf version='1.4'>
   <model name='SMORES6Uriah'>
 	<static>false</static>
-  <pose>0 0 .05 0 0 0</pose>
 	<!--pose>0 0 .1 0 0 0</pose-->
 
     <link name='CircuitHolder'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 .05 0 0 0</pose>
       <inertial>
-        <!--pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose-->
-        <pose>0 -0.00824713 0 0 0 0</pose>
+        <pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose>
         <mass>0.309551</mass>
         <inertia>
           <ixx>0.000152716</ixx>
@@ -25,7 +23,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/CircuitHolderNew.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/CircuitHolderNew.STL</uri>
           </mesh>
         </geometry>
       </collision>
@@ -34,7 +32,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/CircuitHolder.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/CircuitHolder.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -47,7 +45,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/CircuitKey.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/CircuitKey.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -60,7 +58,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/CircuitPart.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/CircuitPart.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -70,10 +68,11 @@
     </link>
 
 		<link name='UHolderBody'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 .05 0 0 0</pose>
 			<inertial>
         <pose>0 0.0306753 0 0 0 0</pose>
-        <mass>0.127498</mass>
+        <!-- old mass><mass>0.127498</mass></-->
+	<mass>0.3</mass>
         <inertia>
           <ixx>0.000145026</ixx>
           <ixy>0</ixy>
@@ -88,7 +87,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/UHolderNew.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/UHolderNew.STL</uri>
           </mesh>
         </geometry>
         <!-- The surface prperties of the U shape holder-->
@@ -97,6 +96,8 @@
             <ode>
               <mu>0.35</mu>
               <mu2>0.35</mu2>
+              <!--slip1>1.0</slip1>
+              <slip2>1.0</slip2-->
             </ode>
           </friction>
         </surface>
@@ -106,7 +107,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/UHolderBody.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/UHolderBody.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -119,7 +120,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/UMagAndGears.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/UMagAndGears.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -132,7 +133,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/UGreenPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/UGreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -145,7 +146,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/URedPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/URedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -163,7 +164,7 @@
     </link>
 
 		<link name='FrontWheel'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 .05 0 0 0</pose>
 			<inertial>
         <pose>0 -0.0436519 0 0 0 0</pose>
         <mass>0.045716</mass>
@@ -181,15 +182,19 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/FrontWheelThin.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/FrontWheelThin.STL</uri>
           </mesh>
         </geometry>
         <!-- Properties of the front wheel-->
         <surface>
           <friction>
             <ode>
-              <mu>0.75</mu>
-              <mu2>0.75</mu2>
+              <mu>0.35</mu>
+              <mu2>0.35</mu2>
+              <!--mu>0</mu>
+              <mu2>0</mu2-->
+              <!--slip1>0</slip1>
+              <slip2>0</slip2-->
             </ode>
           </friction>
         </surface>
@@ -199,11 +204,11 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/FrontWheel.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/FrontWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
-					<ambient>0.7 0.7 0.7 1</ambient>
+					<ambient>0 0 0 1</ambient>
 				</material>
       </visual>
      
@@ -212,7 +217,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/CenterMag2.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/CenterMag2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -225,7 +230,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/RedPad2.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/RedPad2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -238,7 +243,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/GreenPad2.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/GreenPad2.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -255,7 +260,7 @@
     </link>
 
 		<link name='LeftWheel'>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>0 0 .05 0 0 0</pose>
 			<inertial>
         <pose>0.0457825 0 0 0 -0 0</pose>
         <mass>0.0372637</mass>
@@ -273,7 +278,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MainWheelNewThick.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MainWheelNewThick.STL</uri>
           </mesh>
         </geometry>
         <!-- Surface Property of material -->
@@ -283,6 +288,8 @@
             <ode>
               <mu>1</mu>
               <mu2>1</mu2>
+              <!--slip1>1</slip1>
+              <slip2>1</slip2-->
             </ode>
           </friction>
         </surface>
@@ -292,11 +299,11 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MainWheel.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MainWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
-					<ambient>0 0.50588 1 1</ambient>
+					<ambient>0 0 0 1</ambient>
 				</material>
       </visual>
 	
@@ -305,7 +312,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MagneticBars.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MagneticBars.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -318,7 +325,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/RedPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/RedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -331,7 +338,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/GreenPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/GreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -349,9 +356,9 @@
     </link>
 
 		<link name='RightWheel'>
-      <pose>0 0 0 0 0 3.141593</pose>
+      <pose>0 0 0.05 0 0 3.141593</pose>
 			<inertial>
-        <pose>0.0457825 0 0 0 -0 0</pose>
+        <pose>-0.0457825 0 0 0 -0 0</pose>
         <mass>0.0372637</mass>
         <inertia>
           <ixx>3.37995e-05</ixx>
@@ -367,7 +374,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MainWheelNewThick.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MainWheelNewThick.STL</uri>
           </mesh>
         </geometry>
         <!-- Surface Property of material -->
@@ -386,11 +393,11 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MainWheel.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MainWheel.STL</uri>
           </mesh>
         </geometry>
 				<material>
-					<ambient>0.64706 0 0 1</ambient>
+					<ambient>0 0 0 1</ambient>
 				</material>
       </visual>
 
@@ -399,7 +406,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/MagneticBars.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/MagneticBars.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -412,7 +419,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/RedPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/RedPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -425,7 +432,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <uri>model://SMORES6Uriah/meshes/GreenPad.STL</uri>
+            <uri>model://SMORES_RangeFinder/meshes/GreenPad.STL</uri>
           </mesh>
         </geometry>
 				<material>
@@ -482,7 +489,7 @@
       </axis>
       <physics>
         <ode>
-          <max_force>2.3</max_force>
+          <max_force>1.4</max_force>
         </ode>
       </physics>
     </joint>
@@ -506,6 +513,23 @@
           <max_force>2.3</max_force>
         </ode>
       </physics>
+    </joint>
+
+    <include>
+      <uri>model://SMORES_LIDAR</uri>
+      <pose> 0 -0.06 0.05 -1.57 -1.57 0 </pose>
+    </include>
+    <joint type="revolute" name="range_hinge">
+      <pose>0 0 0 0 0 0</pose>
+      <child>SMORES_LIDAR::model</child>
+      <parent>FrontWheel</parent>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+        </limit>
+      </axis>
     </joint>
 
     <plugin name="ModelController" filename="plugins/libModuleController.so"/>

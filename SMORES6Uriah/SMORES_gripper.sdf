@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.4'>
-  <model name='SMORES6Uriah'>
+  <model name='SMORES6Uriah_gripper'>
 	<static>false</static>
   <pose>0 0 .05 0 0 0</pose>
 	<!--pose>0 0 .1 0 0 0</pose-->
@@ -508,6 +508,6 @@
       </physics>
     </joint>
 
-    <plugin name="ModelController" filename="plugins/libModuleController.so"/>
+    <plugin name="GripperController" filename="plugins/libGripperController.so"/>
   </model>
 </sdf>

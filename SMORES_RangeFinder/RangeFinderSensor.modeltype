@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model>
+  <type>sensor</type>
+  <suggested_name>Range_finder</suggested_name>
+  <file>../SMORES_RangeFinder/SMORES_RangeFinder.sdf</file>
+</model>

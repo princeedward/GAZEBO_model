@@ -2,12 +2,14 @@
 <sdf version='1.4'>
   <model name='SMORES7Stella'>
 	<static>false</static>
+  <pose>0 0 0.05 0 0 0</pose>
 	<!--pose>0 0 .1 0 0 0</pose-->
 
     <link name='CircuitHolder'>
-      <pose>0 0 .05 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
       <inertial>
-        <pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose>
+        <!--pose>0.00799044 -0.00824713 0.00675345 0 -0 0</pose-->
+        <pose>0 -0.00824713 0 0 0 0</pose>
         <mass>0.309551</mass>
         <inertia>
           <ixx>0.000152716</ixx>
@@ -68,7 +70,7 @@
     </link>
 
 		<link name='UHolderBody'>
-      <pose>0 0 .05 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
 			<inertial>
         <pose>0 0.0306753 0 0 0 0</pose>
         <mass>0.127498</mass>
@@ -95,8 +97,6 @@
             <ode>
               <mu>0.35</mu>
               <mu2>0.35</mu2>
-              <!--slip1>1.0</slip1>
-              <slip2>1.0</slip2-->
             </ode>
           </friction>
         </surface>
@@ -163,7 +163,7 @@
     </link>
 
 		<link name='FrontWheel'>
-      <pose>0 0 .05 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
 			<inertial>
         <pose>0 -0.0436519 0 0 0 0</pose>
         <mass>0.045716</mass>
@@ -188,12 +188,8 @@
         <surface>
           <friction>
             <ode>
-              <mu>0.35</mu>
-              <mu2>0.35</mu2>
-              <!--mu>0</mu>
-              <mu2>0</mu2-->
-              <!--slip1>0</slip1>
-              <slip2>0</slip2-->
+              <mu>0.75</mu>
+              <mu2>0.75</mu2>
             </ode>
           </friction>
         </surface>
@@ -259,7 +255,7 @@
     </link>
 
 		<link name='LeftWheel'>
-      <pose>0 0 .05 0 0 0</pose>
+      <pose>0 0 0 0 0 0</pose>
 			<inertial>
         <pose>0.0457825 0 0 0 -0 0</pose>
         <mass>0.0372637</mass>
@@ -287,8 +283,6 @@
             <ode>
               <mu>1</mu>
               <mu2>1</mu2>
-              <!--slip1>1</slip1>
-              <slip2>1</slip2-->
             </ode>
           </friction>
         </surface>
@@ -355,9 +349,9 @@
     </link>
 
 		<link name='RightWheel'>
-      <pose>0 0 0.05 0 0 3.141593</pose>
+      <pose>0 0 0 0 0 3.141593</pose>
 			<inertial>
-        <pose>-0.0457825 0 0 0 -0 0</pose>
+        <pose>0.0457825 0 0 0 -0 0</pose>
         <mass>0.0372637</mass>
         <inertia>
           <ixx>3.37995e-05</ixx>
@@ -488,7 +482,7 @@
       </axis>
       <physics>
         <ode>
-          <max_force>1.4</max_force>
+          <max_force>2.3</max_force>
         </ode>
       </physics>
     </joint>
